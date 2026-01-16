@@ -4,79 +4,241 @@
   <meta charset="UTF-8" />
   <title>Apply | Pre-College Computer Science Online | Carnegie Mellon University</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Application workflow and enrollment steps for the Carnegie Mellon University Pre-College Computer Science Online program." />
+  <meta name="description" content="Enrollment workflow for the Pre-College Computer Science Online program: application overview, tuition details, and payment authorization." />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Apply</h1>
-    <p>Pre-College Computer Science Online · Carnegie Mellon University</p>
-    <p style="margin-top:14px;">
-      <a href="index.html">Home</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="course.html">Course</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="projects.html">Projects</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="apply.html" aria-current="page">Apply</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="payment.html">Payment</a>
-    </p>
+
+  <div class="topbar">
+    <div class="container">
+      <div><strong>Carnegie Mellon University</strong></div>
+      <div class="right">
+        <a href="course.html">Course</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="brandrow">
+        <div class="brandmark">
+          <div class="uni">Carnegie Mellon University</div>
+          <span class="sub">Pre-College Programs · Department of Computer Science</span>
+        </div>
+        <div class="search" role="search" aria-label="Site search">
+          <input type="search" placeholder="Search enrollment information" aria-label="Search" />
+          <button type="button" aria-label="Search">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Primary">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <a href="course.html">Course</a>
+        <a class="active" href="apply.html">Apply</a>
+      </div>
+    </nav>
   </header>
 
+  <section class="hero">
+    <div class="container">
+      <div class="heroCard">
+        <div class="heroMedia" aria-hidden="true"></div>
+        <div class="heroBody">
+          <span class="kicker">Enrollment</span>
+          <div class="h1">Application & Enrollment Workflow</div>
+          <p class="lede">
+            This workflow provides a structured path through application information, program expectations,
+            tuition details, and payment authorization.
+          </p>
+          <div class="meta">
+            <span><strong>Program:</strong> Pre-College Computer Science Online</span>
+            <span><strong>Tuition:</strong> USD $500</span>
+            <span><strong>Format:</strong> Online</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="rail">
+        <div class="cta">
+          <h3>Continue to Payment</h3>
+          <p>Review tuition details and proceed to payment authorization.</p>
+          <a href="#tuition">Go to Tuition</a>
+        </div>
+
+        <div class="panel">
+          <h3>Workflow steps</h3>
+          <ul>
+            <li>Apply Intro</li>
+            <li>Tuition & payment methods</li>
+            <li>Payment authorization</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
   <main>
-    <section>
-      <h2>Application Workflow</h2>
-      <p>
-        The application workflow is designed to guide students through program information,
-        eligibility considerations, and enrollment steps.
-      </p>
-      <p>
-        Students should review program expectations carefully prior to proceeding to payment.
-      </p>
-    </section>
+    <div class="container">
+      <div class="grid">
 
-    <section>
-      <h2>Step 1: Introduction</h2>
-      <p>
-        The program is delivered online across 20 sessions and includes structured instruction,
-        practice, and a culminating Final Project. Students seeking a Certificate of Completion
-        must submit the Final Project according to the requirements on the Projects page.
-      </p>
-      <p>
-        <a href="#step2">Continue to Step 2 →</a>
-      </p>
-    </section>
+        <!-- Main column -->
+        <div class="card">
+          <h2>Apply Intro</h2>
+          <p class="muted">
+            The Pre-College Computer Science Online program is designed for students prepared to engage in rigorous,
+            structured learning. The program spans 20 instructional sessions and includes project-based milestones
+            culminating in a Final Project submission.
+          </p>
 
-    <section id="step2">
-      <h2>Step 2: Apply Now</h2>
-      <p>
-        Applicants are expected to have the maturity and time commitment required for an intensive
-        online computer science program. Coursework includes programming assignments and project-based
-        milestones that build toward a final submission.
-      </p>
-      <p>
-        Applicants are encouraged to review the Course and Projects pages prior to enrollment:
-        <a href="course.html">Course</a> · <a href="projects.html">Projects</a>
-      </p>
-      <p>
-        <a href="#step3">Proceed to Step 3 →</a>
-      </p>
-    </section>
+          <div class="callout" style="margin-top:14px;">
+            <strong>Final Project policy:</strong> The Final Project is evaluated from a <strong>single official submission</strong>.
+            Students should plan, test, and document carefully prior to submission.
+          </div>
 
-    <section id="step3">
-      <h2>Step 3: Complete Payment</h2>
-      <p>
-        Tuition for the program is <strong>USD $500</strong>. Accepted payment methods are listed on the Payment page.
-      </p>
-      <p>
-        <a href="payment.html">Continue to Payment →</a>
-      </p>
-    </section>
+          <p style="margin-top:14px;">
+            Applicants are strongly encouraged to review:
+            <a href="course.html">Course</a> and <a href="projects.html">Final Project requirements</a>.
+          </p>
+
+          <hr />
+
+          <h2>Program Expectations</h2>
+          <p>
+            Students are expected to:
+          </p>
+          <ul>
+            <li>Engage consistently with instruction and assigned practice between sessions.</li>
+            <li>Maintain clear code organization and documentation standards.</li>
+            <li>Demonstrate academic integrity and independent understanding of submitted work.</li>
+            <li>Complete a final software artifact that meets scope, correctness, and communication requirements.</li>
+          </ul>
+
+          <hr />
+
+          <h2 id="tuition">Tuition & Payment Details</h2>
+          <p>
+            Tuition for the program is <strong>USD $500</strong>. Full payment is required to complete enrollment.
+          </p>
+
+          <h3 style="margin-top:16px; margin-bottom:8px;">Accepted Payment Methods</h3>
+          <p class="muted" style="margin-top:0;">
+            Select a supported payment method during authorization.
+          </p>
+
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-top:14px;">
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#card"></use></svg>
+                <strong>Credit / Debit Card</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Visa · Mastercard · American Express</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#paypal"></use></svg>
+                <strong>PayPal</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">PayPal balance or linked payment method</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#applepay"></use></svg>
+                <strong>Apple Pay</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Available on supported devices</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#googlepay"></use></svg>
+                <strong>Google Pay</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Available on supported devices</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#alipay"></use></svg>
+                <strong>Alipay</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Secure QR-based payment</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#kakaopay"></use></svg>
+                <strong>Kakao Pay</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Mobile wallet payment</p>
+            </div>
+
+            <div style="border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <svg width="24" height="24"><use href="assets/icons.svg#bank"></use></svg>
+                <strong>Bank Transfer</strong>
+              </div>
+              <p class="muted" style="margin:8px 0 0;">Available where supported</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <h2>Continue Payment</h2>
+          <p class="muted">
+            Select Continue to proceed to payment authorization.
+          </p>
+          <p>
+            <a href="qr.html" style="font-weight:800;">Continue Payment →</a>
+          </p>
+        </div>
+
+        <!-- Right column -->
+        <aside class="card">
+          <h2>Important Notes</h2>
+          <p class="muted">
+            Applicants should ensure all program expectations have been reviewed prior to payment authorization.
+          </p>
+
+          <hr />
+
+          <h2>Reference</h2>
+          <p class="muted">
+            Course structure and learning objectives:
+            <a href="course.html">Course</a>
+          </p>
+          <p class="muted">
+            Final Project criteria and submission expectations:
+            <a href="projects.html">Projects</a>
+          </p>
+
+          <hr />
+
+          <h2>Help</h2>
+          <p class="muted">
+            For enrollment questions, refer to official program communications and published guidance.
+          </p>
+        </aside>
+
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>© Carnegie Mellon University · Pre-College Programs · Department of Computer Science</p>
+    <div class="container">
+      <div>
+        <strong>Carnegie Mellon University</strong><br />
+        <small>Pre-College Programs · Department of Computer Science</small>
+      </div>
+      <div>
+        <small>© Carnegie Mellon University</small>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
