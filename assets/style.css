@@ -75,3 +75,31 @@ footer {
   color: var(--text-muted);
   border-top: 1px solid var(--border);
 }
+/* --- Enhanced callout (university-style emphasis block) --- */
+.callout{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  border-left:6px solid var(--brand);
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+              linear-gradient(90deg, rgba(196,18,48,.10), rgba(196,18,48,0));
+  border:1px solid var(--line);
+  border-left-color: var(--brand);
+  padding:14px 14px 14px 14px;
+  border-radius:12px;
+}
+
+.callout svg{
+  flex:0 0 auto;
+  margin-top:2px;
+  color: var(--brand-dark);
+}
+
+.callout strong{
+  color: var(--brand-dark);
+}
+
+.callout p{
+  margin:0;
+  color: var(--ink);
+}
