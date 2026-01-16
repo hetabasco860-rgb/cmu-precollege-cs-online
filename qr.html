@@ -4,97 +4,200 @@
   <meta charset="UTF-8" />
   <title>Payment Authorization | Pre-College Computer Science Online | Carnegie Mellon University</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Payment authorization for the Carnegie Mellon University Pre-College Computer Science Online program." />
+  <meta name="description" content="Payment authorization and enrollment confirmation for the Pre-College Computer Science Online program." />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Payment Authorization</h1>
-    <p>Pre-College Computer Science Online · Carnegie Mellon University</p>
+
+  <div class="topbar">
+    <div class="container">
+      <div><strong>Carnegie Mellon University</strong></div>
+      <div class="right">
+        <a href="apply.html">Apply</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="brandrow">
+        <div class="brandmark">
+          <div class="uni">Carnegie Mellon University</div>
+          <span class="sub">Pre-College Programs · Department of Computer Science</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Primary">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <a href="course.html">Course</a>
+        <a class="active" href="apply.html">Apply</a>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Authorize Payment</h2>
-      <p>
-        Please complete payment authorization using your selected payment method.
-        Once authorization is completed, enrollment processing will begin.
-      </p>
-    </section>
-
-    <section style="display:flex; gap:32px; flex-wrap:wrap; align-items:flex-start;">
-      <div style="flex:1; min-width:260px;">
-        <h3>Scan to Authorize</h3>
-        <div style="
-          margin-top:16px;
-          width:220px;
-          height:220px;
-          border-radius:16px;
-          background:
-            repeating-linear-gradient(
-              45deg,
-              #2a2f45,
-              #2a2f45 10px,
-              #111521 10px,
-              #111521 20px
-            );
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          color:#a8b1c7;
-          font-size:0.9rem;
-        ">
-          QR Code
+  <section class="hero">
+    <div class="container">
+      <div class="heroCard">
+        <div class="heroBody">
+          <span class="kicker">Enrollment</span>
+          <div class="h1">Payment Authorization</div>
+          <p class="lede">
+            Review the order details below and complete payment authorization to finalize enrollment
+            in the Pre-College Computer Science Online program.
+          </p>
+          <div class="meta">
+            <span><strong>Status:</strong> Awaiting authorization</span>
+            <span><strong>Amount:</strong> USD $500</span>
+          </div>
         </div>
-        <p style="margin-top:12px; color:#a8b1c7;">
-          Use your mobile payment application to scan and authorize.
-        </p>
       </div>
 
-      <div style="flex:1; min-width:260px;">
-        <h3>Payment Details</h3>
-        <table style="width:100%; border-collapse:collapse; margin-top:12px;">
-          <tr>
-            <td style="padding:8px 0; color:#a8b1c7;">Program</td>
-            <td style="padding:8px 0;">Pre-College Computer Science Online</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0; color:#a8b1c7;">Institution</td>
-            <td style="padding:8px 0;">Carnegie Mellon University</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0; color:#a8b1c7;">Tuition</td>
-            <td style="padding:8px 0;"><strong>USD $500</strong></td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0; color:#a8b1c7;">Status</td>
-            <td style="padding:8px 0;">Awaiting authorization</td>
-          </tr>
-        </table>
+      <aside class="rail">
+        <div class="panel">
+          <h3>Authorization steps</h3>
+          <ul>
+            <li>Verify program and tuition details</li>
+            <li>Select payment method</li>
+            <li>Authorize payment</li>
+            <li>Enrollment confirmation</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <div class="grid">
+
+        <!-- Left: Order details -->
+        <div class="card">
+          <h2>Order Summary</h2>
+
+          <table style="width:100%; border-collapse:collapse; margin-top:12px;">
+            <tr>
+              <td style="padding:10px 0; color:var(--muted);">Program</td>
+              <td style="padding:10px 0;">Pre-College Computer Science Online</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 0; color:var(--muted);">Institution</td>
+              <td style="padding:10px 0;">Carnegie Mellon University</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 0; color:var(--muted);">Format</td>
+              <td style="padding:10px 0;">Online</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 0; color:var(--muted);">Total tuition</td>
+              <td style="padding:10px 0;"><strong>USD $500</strong></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 0; color:var(--muted);">Payment status</td>
+              <td style="padding:10px 0;">Pending authorization</td>
+            </tr>
+          </table>
+
+          <hr />
+
+          <h2>Select Payment Method</h2>
+          <p class="muted">
+            Use your preferred supported payment method to complete authorization.
+          </p>
+
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:14px; margin-top:14px;">
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#card"></use></svg>
+              <strong>Credit / Debit Card</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#paypal"></use></svg>
+              <strong>PayPal</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#applepay"></use></svg>
+              <strong>Apple Pay</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#googlepay"></use></svg>
+              <strong>Google Pay</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#alipay"></use></svg>
+              <strong>Alipay</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#kakaopay"></use></svg>
+              <strong>Kakao Pay</strong>
+            </div>
+            <div class="callout">
+              <svg width="22" height="22"><use href="assets/icons.svg#bank"></use></svg>
+              <strong>Bank Transfer</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: QR + confirmation -->
+        <aside class="card">
+          <h2>Authorize Payment</h2>
+
+          <div style="
+            margin-top:14px;
+            width:100%;
+            aspect-ratio:1/1;
+            border:1px solid var(--line);
+            border-radius:14px;
+            background:
+              repeating-linear-gradient(
+                45deg,
+                #e5e7eb,
+                #e5e7eb 10px,
+                #ffffff 10px,
+                #ffffff 20px
+              );
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-weight:700;
+            color:var(--muted);
+          ">
+            QR Code
+          </div>
+
+          <p class="muted" style="margin-top:12px;">
+            Scan using your selected payment application to authorize the transaction.
+          </p>
+
+          <hr />
+
+          <h2>After Authorization</h2>
+          <p class="muted">
+            Once payment authorization is completed, enrollment will be recorded and
+            confirmation will be issued through official program communications.
+          </p>
+
+          <p>
+            <a href="index.html">Return to Home →</a>
+          </p>
+        </aside>
+
       </div>
-    </section>
-
-    <section>
-      <h2>After Authorization</h2>
-      <p>
-        After payment authorization is completed, confirmation will be issued
-        and enrollment will be recorded under the applicant’s profile.
-      </p>
-      <p>
-        For questions regarding payment status, please refer to official
-        program communications.
-      </p>
-    </section>
-
-    <section>
-      <p>
-        <a href="index.html">Return to Home →</a>
-      </p>
-    </section>
+    </div>
   </main>
 
   <footer>
-    <p>© Carnegie Mellon University · Pre-College Programs · Department of Computer Science</p>
+    <div class="container">
+      <div>
+        <strong>Carnegie Mellon University</strong><br />
+        <small>Pre-College Programs · Department of Computer Science</small>
+      </div>
+      <div>
+        <small>© Carnegie Mellon University</small>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
