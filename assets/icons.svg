@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- Credit Card -->
+  <symbol id="card" viewBox="0 0 24 24">
+    <rect x="2" y="4" width="20" height="16" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="2"/>
+    <line x1="2" y1="9" x2="22" y2="9" stroke="currentColor" stroke-width="2"/>
+    <line x1="6" y1="15" x2="10" y2="15" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- PayPal -->
+  <symbol id="paypal" viewBox="0 0 24 24">
+    <path d="M6 20h4l1-4h3.5a5.5 5.5 0 0 0 0-11H7L6 20z"
+          fill="none" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- Apple Pay -->
+  <symbol id="applepay" viewBox="0 0 24 24">
+    <path d="M16 13c0 3 2.5 4 2.5 4S17 21 14 21c-2 0-3-1-4.5-1S7 21 6 21C3 21 1 17 1 13c0-3 2-5 5-5 2 0 3 .9 4.5 .9S13 8 15 8c.5 0 2 .1 3.5 1.5-3 1.5-2.5 3.5-2.5 3.5z"
+          fill="currentColor"/>
+  </symbol>
+
+  <!-- Google Pay -->
+  <symbol id="googlepay" viewBox="0 0 24 24">
+    <path d="M12 12h9a9 9 0 1 1-2.6-6.4"
+          fill="none" stroke="currentColor" stroke-width="2"/>
+    <line x1="12" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- Alipay -->
+  <symbol id="alipay" viewBox="0 0 24 24">
+    <path d="M4 4h16v16H4z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M8 9h8M7 15c4-1 6-3 10-6"
+          stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+
+  <!-- Kakao Pay -->
+  <symbol id="kakaopay" viewBox="0 0 24 24">
+    <path d="M12 4c-5 0-9 3-9 7s4 7 9 7c1 0 2-.1 3-.4l3 2-.8-3c2-1.3 3-3.1 3-5.6 0-4-4-7-9-7z"
+          fill="none" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- Bank Transfer -->
+  <symbol id="bank" viewBox="0 0 24 24">
+    <polygon points="12,3 2,9 22,9" fill="none" stroke="currentColor" stroke-width="2"/>
+    <line x1="4" y1="9" x2="4" y2="21" stroke="currentColor" stroke-width="2"/>
+    <line x1="10" y1="9" x2="10" y2="21" stroke="currentColor" stroke-width="2"/>
+    <line x1="16" y1="9" x2="16" y2="21" stroke="currentColor" stroke-width="2"/>
+    <line x1="2" y1="21" x2="22" y2="21" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+</svg>
